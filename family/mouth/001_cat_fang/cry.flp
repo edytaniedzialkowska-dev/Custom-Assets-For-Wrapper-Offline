@@ -1,0 +1,4 @@
+﻿<flash_project name="cry" version="1">
+	<project_file path="./cry.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./cry_fla/mouth_1.as" filetype="as"/>
+</flash_project>

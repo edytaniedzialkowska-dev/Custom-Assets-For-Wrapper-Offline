@@ -1,0 +1,22 @@
+﻿package anifire.event
+{
+    import flash.events.*;
+
+    public class SpeechPitchEvent extends Event
+    {
+        public var soundId:String;
+        public var sceneId:String;
+        public var charId:String;
+        public var value:Number;
+        public static var PITCH:String = "pitch";
+        public static var DEMO_START:String = "demo_start";
+        public static var DEMO_END:String = "demo_end";
+
+        public function SpeechPitchEvent(param1:String, param2:Boolean = false, param3:Boolean = false) : void
+        {
+            super(param1, param2, param3);
+            return;
+        }// end function
+
+    }
+}
